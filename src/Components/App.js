@@ -4,6 +4,7 @@ import EditarBebida from "./EditarBebida";
 import Bebida from "./Bebida";
 import { Container, Button, Row, Col, Alert, Spinner } from "react-bootstrap";
 import "../App.css";
+const REST_PATH = "https://armavill.github.io/api-bebidas/";
 
 class App extends React.Component {
   constructor(props) {
@@ -30,13 +31,9 @@ class App extends React.Component {
     this.loadData();
   }
 
-  // componentDidUpdate() {
-  //   this.loadData();
-  // }
-
   loadData() {
     axios
-      .get("http://localhost:3000/bebidas")
+      .get(REST_PATH + "/bebidas")
       .then(response => {
         this.setState({
           bebidas: response.data.respuesta,
@@ -52,7 +49,7 @@ class App extends React.Component {
   newDrink(nombre, descripcion, precio, cantidad) {
     console.log(nombre, descripcion, precio, cantidad);
     axios
-      .post("http://localhost:3000/bebidas", {
+      .post(REST_PATH + "/bebidas", {
         nombre,
         descripcion,
         precio,
@@ -75,7 +72,7 @@ class App extends React.Component {
   delete(id) {
     console.log("Eliminando.." + id);
     axios
-      .delete("http://localhost:3000/bebidas/" + id)
+      .delete(REST_PATH + "/bebidas/" + id)
       .then(response => {
         console.log(response.data.mensaje);
         this.setState({
@@ -92,7 +89,7 @@ class App extends React.Component {
   edit(id, nombre, descripcion, precio, cantidad) {
     console.log(id, nombre, descripcion, precio, cantidad);
     axios
-      .put("http://localhost:3000/bebidas/" + id, {
+      .put(REST_PATH + "/bebidas/" + id, {
         id: id,
         nombre,
         descripcion,
