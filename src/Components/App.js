@@ -37,9 +37,9 @@ class App extends React.Component {
       .then(response => {
         this.setState({
           bebidas: response.data.respuesta,
-          isLoading: false
+          isLoading: response.data.respuesta.length === 0 ? true : false
         });
-        console.log(this.state);
+        console.log(response.data.respuesta.length);
       })
       .catch(error =>
         this.setState({ error: true, mensaje: error.message, isLoading: false })
