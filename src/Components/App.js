@@ -4,7 +4,7 @@ import EditarBebida from "./EditarBebida";
 import Bebida from "./Bebida";
 import { Container, Button, Row, Col, Alert, Spinner } from "react-bootstrap";
 import "../App.css";
-const REST_PATH = "https://armavill.github.io/api-bebidas/";
+const REST_PATH = "https://api-bebidas.herokuapp.com/";
 
 class App extends React.Component {
   constructor(props) {
