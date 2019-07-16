@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d926f73a.chunk.css",
-    "main.js": "/static/js/main.39b110a8.chunk.js",
-    "main.js.map": "/static/js/main.39b110a8.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.651bbf15.chunk.js": "/static/js/2.651bbf15.chunk.js",
-    "static/js/2.651bbf15.chunk.js.map": "/static/js/2.651bbf15.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.235b129a179a7fd086484b9fe61d1c9c.js": "/precache-manifest.235b129a179a7fd086484b9fe61d1c9c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d926f73a.chunk.css.map": "/static/css/main.d926f73a.chunk.css.map"
+    "main.css": "/vending-machine/static/css/main.d926f73a.chunk.css",
+    "main.js": "/vending-machine/static/js/main.e2d7f38e.chunk.js",
+    "main.js.map": "/vending-machine/static/js/main.e2d7f38e.chunk.js.map",
+    "runtime~main.js": "/vending-machine/static/js/runtime~main.7072e60e.js",
+    "runtime~main.js.map": "/vending-machine/static/js/runtime~main.7072e60e.js.map",
+    "static/js/2.651bbf15.chunk.js": "/vending-machine/static/js/2.651bbf15.chunk.js",
+    "static/js/2.651bbf15.chunk.js.map": "/vending-machine/static/js/2.651bbf15.chunk.js.map",
+    "index.html": "/vending-machine/index.html",
+    "precache-manifest.eeb624c896f67b65d4df7b43d66cdc5a.js": "/vending-machine/precache-manifest.eeb624c896f67b65d4df7b43d66cdc5a.js",
+    "service-worker.js": "/vending-machine/service-worker.js",
+    "static/css/main.d926f73a.chunk.css.map": "/vending-machine/static/css/main.d926f73a.chunk.css.map"
   }
 }
