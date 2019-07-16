@@ -20,9 +20,9 @@ class Bebidas extends React.Component {
           <Card.Title>{this.state.nombre}</Card.Title>
           <Card.Text>{this.state.descripcion}</Card.Text>
           <Card.Text>
-            <small className="text-muted">₡{this.state.precio}</small>
+            Precio<small className="text-muted">₡{this.state.precio}</small>
             <br></br>
-            <small className="text-muted">{this.state.id}</small>
+            Cantidad <small className="text-muted">{this.state.cantidad}</small>
           </Card.Text>
         </Card.Body>
         <Card.Footer>

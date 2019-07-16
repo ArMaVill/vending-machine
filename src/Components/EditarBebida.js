@@ -76,19 +76,12 @@ class EditarBebida extends React.Component {
     this.props.handleClose();
   };
 
-  //   addForm() {
-  //     let form = (
-
-  //     );
-  //     return form;
-  //   }
-
   render() {
     let adding = this.state.adding;
     return (
       <div>
         <div className="newTask">
-          <h2>Nueva Bebida {this.state.id}</h2>
+          <h2>Nueva Bebida</h2>
           <Form.Group as={Row} controlId="formDrinkName">
             <Form.Label column sm="4">
               Nombre:
